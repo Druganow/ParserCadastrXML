@@ -56,13 +56,13 @@
     <Compile Include="Models\CadastrObject.cs" />
     <Compile Include="Models\Construction.cs" />
     <Compile Include="Models\Land.cs" />
-    <Compile Include="Models\MunicipalBoundaryRecordXML.cs" />
+    <Compile Include="Models\MunicipalBoundary.cs" />
     <Compile Include="Models\Ordinate.cs" />
     <Compile Include="Parsing\ParserCadastrXML.cs" />
     <Compile Include="Models\RecordData.cs" />
     <Compile Include="Helpers\SaveHelperXML.cs" />
     <Compile Include="Models\Spatial.cs" />
-    <Compile Include="Models\ZonesAndTerritoriesRecord.cs" />
+    <Compile Include="Models\ZonesAndTerritories.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">

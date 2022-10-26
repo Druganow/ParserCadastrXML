@@ -7,7 +7,7 @@ namespace CadastrPlanApp
     /// <summary>
     /// Зона и территория.
     /// </summary>
-    class ZonesAndTerritoriesRecord : CadastrObject
+    class ZonesAndTerritories : CadastrObject
     {
         /// <summary>
         /// Дата регистрации.
@@ -53,7 +53,7 @@ namespace CadastrPlanApp
         /// Конструктор.
         /// </summary>
         /// <param name="element">XML-узел с информацией о зоне и территории.</param>
-        public ZonesAndTerritoriesRecord(XElement element)
+        public ZonesAndTerritories(XElement element)
         {
             if (element == null)
             {

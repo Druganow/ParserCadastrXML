@@ -63,14 +63,14 @@ namespace CadastrPlanApp
             foreach (var land in data.Element("municipal_boundaries")
                                        .Elements("municipal_boundary_record"))
             {
-                CadastrObject ob = new MunicipalBoundaryRecordXML(land);
+                CadastrObject ob = new MunicipalBoundary(land);
                 dataSet.Add(ob.Id, ob);
             }
 
             foreach (var land in data.Element("zones_and_territories_boundaries")
                                         .Elements("zones_and_territories_record"))
             {
-                CadastrObject ob = new ZonesAndTerritoriesRecord(land);
+                CadastrObject ob = new ZonesAndTerritories(land);
                 dataSet.Add(ob.Id, ob);
             }
 

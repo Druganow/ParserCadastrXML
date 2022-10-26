@@ -7,7 +7,7 @@ namespace CadastrPlanApp
     /// <summary>
     /// Муниципальный участок.
     /// </summary>
-    class MunicipalBoundaryRecordXML : CadastrObject
+    class MunicipalBoundary : CadastrObject
     {
         /// <summary>
         /// Дата регистрации.
@@ -43,7 +43,7 @@ namespace CadastrPlanApp
         /// Конструктор.
         /// </summary>
         /// <param name="element">XML-узел с информацией о муниципальном участке.</param>
-        public MunicipalBoundaryRecordXML(XElement element)
+        public MunicipalBoundary(XElement element)
         {
             if (element == null)
             {
