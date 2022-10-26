@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastrPlanApp", "CadastrPlanApp\CadastrPlanApp.csproj", "{96D0CD81-803E-43F6-AFEA-5032FE17FA9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96D0CD81-803E-43F6-AFEA-5032FE17FA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D0CD81-803E-43F6-AFEA-5032FE17FA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D0CD81-803E-43F6-AFEA-5032FE17FA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D0CD81-803E-43F6-AFEA-5032FE17FA9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {441B7A7E-C55F-4E0C-9278-29B6DAB168D0}
+	EndGlobalSection
+EndGlobal
