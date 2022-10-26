@@ -8,3 +8,13 @@ C:\Users\Druganow\source\repos\ConsoleApp2\CadastrPlanApp\obj\Debug\CadastrPlanA
 C:\Users\Druganow\source\repos\ConsoleApp2\CadastrPlanApp\obj\Debug\CadastrPlanApp.exe
 C:\Users\Druganow\source\repos\ConsoleApp2\CadastrPlanApp\obj\Debug\CadastrPlanApp.pdb
 C:\Users\Druganow\source\repos\ConsoleApp2\CadastrPlanApp\obj\Debug\CadastrPlanApp.MainForm.resources
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\bin\Debug\CadastrPlanApp.exe.config
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\bin\Debug\CadastrPlanApp.exe
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\bin\Debug\CadastrPlanApp.pdb
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\obj\Debug\CadastrPlanApp.csproj.AssemblyReference.cache
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\obj\Debug\CadastrPlanApp.MainForm.resources
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\obj\Debug\CadastrPlanApp.Properties.Resources.resources
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\obj\Debug\CadastrPlanApp.csproj.GenerateResource.cache
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\obj\Debug\CadastrPlanApp.csproj.CoreCompileInputs.cache
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\obj\Debug\CadastrPlanApp.exe
+C:\Users\Druganow\source\repos\ParserCadastrXML\TestApp\CadastrPlanApp\obj\Debug\CadastrPlanApp.pdb

@@ -56,17 +56,12 @@ namespace CadastrPlanApp
 
             x = element.Element("x").Value;
             y = element.Element("y").Value;
-
             ord_nmb = element.Element("ord_nmb")?.Value;
-
             num_geopoint = element.Element("num_geopoint")?.Value;
-
+            
             var geopoint_opred = element.Element("geopoint_opred");
-
             geopoint_opredCode = geopoint_opred?.Element("code").Value;
-
             geopoint_opredValue = geopoint_opred?.Element("value").Value;
-
             delta_geopoint = element.Element("delta_geopoint")?.Value;
         }
 
@@ -78,6 +73,7 @@ namespace CadastrPlanApp
         {
             string str = "";
             str += "\nКоордината: (" + x + " ; " + y + ")";
+
             if (num_geopoint != null) str += "\nНомер : " + num_geopoint;
             if (ord_nmb != null) str += "\nНомер точки пространства: " + ord_nmb;
             if (geopoint_opredCode != null) str += "\nКод определения координат: " + geopoint_opredCode;

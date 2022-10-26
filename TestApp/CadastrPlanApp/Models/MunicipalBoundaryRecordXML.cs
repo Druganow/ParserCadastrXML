@@ -67,6 +67,7 @@ namespace CadastrPlanApp
             if (entity_spatial != null)
             {
                 skId = entity_spatial.Element("sk_id").Value;
+
                 foreach (var coord in entity_spatial.Element("spatials_elements")
                                                     .Element("spatial_element")
                                                     .Element("ordinates")

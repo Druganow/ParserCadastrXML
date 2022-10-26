@@ -75,15 +75,18 @@ namespace CadastrPlanApp
                 typeBoundaryCode = b_object.Element("type_boundary").Element("code").Value;
                 typeBoundaryValue = b_object.Element("type_boundary").Element("code").Value;
             }
+
             if (type_zone != null)
             {
                 typeZoneCode = type_zone.Element("code").Value;
                 typeZoneValue = type_zone.Element("value").Value;
             }
+
             if (numberElement != null)
             {
                 number = numberElement.Value;
             }
+
             if (entity_spatial != null)
             {
                 foreach (var spatials in entity_spatial.Elements("spatials_elements"))
@@ -135,6 +138,7 @@ namespace CadastrPlanApp
                 + "\r\nДата регистации: " + registration_date
                 + "\r\nТип границы: " + typeBoundaryCode + " " + typeBoundaryValue
                 + "\r\nТип Зоны: " + typeZoneCode + " " + typeZoneValue;
+
             if (number != "") str += "\r\nНомер: " + number;
 
             foreach (var list in ordinates)

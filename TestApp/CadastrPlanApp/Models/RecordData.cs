@@ -159,11 +159,13 @@ namespace CadastrPlanApp
                             code_region = region.Element("code").Value;
                             value_region = region.Element("value").Value;
                         }
+
                         if (district != null)
                         {
                             type_district = district.Element("type_district").Value;
                             name_district = district.Element("name_district").Value;
                         }
+
                         if (locality != null)
                         {
                             type_locality = locality.Element("type_locality").Value;
@@ -182,6 +184,7 @@ namespace CadastrPlanApp
                             type_street = street.Element("type_street").Value;
                             name_street = street.Element("name_street").Value;
                         }
+
                         if (level != null)
                         {
                             if (level.Element("type_level1") != null)

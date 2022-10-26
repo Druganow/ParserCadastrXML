@@ -42,6 +42,7 @@ namespace CadastrPlanApp
                 purposeCode = paramsElement.Element("purpose").Element("code").Value;
                 purposeValue = paramsElement.Element("purpose").Element("value").Value;
             }
+
             if (costElement != null)
             {
                 cost = costElement.Value;

@@ -47,7 +47,7 @@ namespace CadastrPlanApp
         {
             TreeNode argentinaNode = new TreeNode { Text = "Объекты" };
             treeView.CheckBoxes = true;
-            var lands = new TreeNode { Text = "Земля" };
+            var lands = new TreeNode { Text = "Земельный участок" };
             var builds = new TreeNode { Text = "Здания" };
             var construction = new TreeNode { Text = "Сооружение" };
             var spatial = new TreeNode { Text = "Пространнственные данные" };

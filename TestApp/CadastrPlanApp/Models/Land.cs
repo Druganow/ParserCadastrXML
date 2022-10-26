@@ -67,11 +67,11 @@ namespace CadastrPlanApp
         /// Конструктор.
         /// </summary>
         /// <param name="element">XML-узел с информацией о земельном участке.</param>
-        public Land(XElement element): base(element)
+        public Land(XElement element) : base(element)
         {
             var subtype = element.Element("object").Element("subtype");
             var costElement = element.Element("cost");
-            
+
             if (element.Element("params").Element("category") != null)
             {
                 category_code = element.Element("params").Element("category").Element("type").Element("code").Value;
@@ -82,6 +82,7 @@ namespace CadastrPlanApp
             {
                 var premUseSection = element.Element("params").Element("permitted_use").Element("permitted_use_established");
                 useByDocument = premUseSection.Element("by_document").Value;
+
                 if (premUseSection.Element("land_use") != null)
                 {
                     landUseCode = premUseSection.Element("land_use").Element("code") != null ?
@@ -96,24 +97,25 @@ namespace CadastrPlanApp
                 area = element.Element("area").Element("value").Value;
             }
 
-            if (subtype !=null)
+            if (subtype != null)
             {
                 subtype_code = subtype.Element("code").Value;
                 subtype_value = subtype.Element("value").Value;
             }
-            
-            if(costElement!=null)
+
+            if (costElement != null)
             {
                 cost = costElement.Value;
             }
 
-            if(element.Element("contours_location")!=null)
+            if (element.Element("contours_location") != null)
             {
                 var entity_spatial = element.Element("contours_location")
                                         .Element("contours")
                                         .Element("contour")
                                         .Element("entity_spatial");
                 skId = entity_spatial.Element("sk_id").Value;
+
                 foreach (var coord in entity_spatial.Element("spatials_elements")
                                                     .Element("spatial_element")
                                                     .Element("ordinates")
@@ -175,18 +177,23 @@ namespace CadastrPlanApp
         {
             var str = $"{base.GetObjectString()}\n{GetSubtypeString()}" +
                 $"{GetCategoryString()}{GetUseString()}{base.GetAddressString()}\n";
+
             if (!string.IsNullOrEmpty(area))
                 str += $"Площадь: {area}\n";
+
             if (!string.IsNullOrEmpty(area))
-                str+=$"Цена: {cost}\n";
+                str += $"Цена: {cost}\n";
+
             if (!string.IsNullOrEmpty(skId))
             {
-                str+=$"Идентификатор системы координат: {skId}\n";
+                str += $"Идентификатор системы координат: {skId}\n";
+
                 foreach (var coord in ordinates)
                 {
                     str += coord.ToString() + "\n";
                 }
             }
+
             return str;
         }
     }
